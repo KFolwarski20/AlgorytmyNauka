@@ -1,2 +1,9 @@
+import time
+from introductionToAlgorithms import binary_search
+
 if __name__ == '__main__':
-    pass
+    my_list = [1, 3, 5, 7, 9]
+    start_time_1 = time.time()
+    print(f"Item: {binary_search(my_list, 3)}|\t{time.time() - start_time_1:.8f} seconds")
+    start_time_2 = time.time()
+    print(f"Item: {binary_search(my_list, -1)}|\t{time.time() - start_time_2:.8f} seconds")
