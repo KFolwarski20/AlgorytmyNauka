@@ -49,3 +49,18 @@ Chcesz przeczytać numery tylko osób o nazwiskach na A.
 
 # Odpowiedź: O(n). Teoretycznie przeszukuję tylko osoby z nazwiskami na A, czyli 1 z 26 znaków.
 # Jednak nie ma zapisu O(n/26) - jest to niepoprawne.
+
+
+"""
+Wyobraź sobie, że tworzysz aplikację do zarządzania domowymi finansami.
+    1. warzywa
+    2. film
+    3. członkostwo w sfbc
+Codziennie zapisujesz wszystkie swoje wydatki. Na koniec miesiąca przeglądasz notatki i podsumowujesz, ile wydałeś.
+W związku z tym często dodajesz nowe elementy i rzadko odczytujesz dane. Czy w takim razie dla Ciebie lepsza będzie
+tablica czy lista?
+"""
+
+# Odpowiedź: W takim wypadku lepsza będzie lista powiązana. Rzadko odczytuję dane, często dodaję nowe elementy, więc
+# to będzie lepsze rozwiązanie niż tablica. Lista powiązana charakteryzuje się szybkim czasem dodawania nowych elementów
+# jednak wadą jest długi czas odczytu. W przypadku tablicy jest zupełnie odwrotnie.
