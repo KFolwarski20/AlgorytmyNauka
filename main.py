@@ -15,3 +15,10 @@ if __name__ == '__main__':
     print(count_list_elements([1, 2, 3, 4, 5, 10, 11]))
     print(find_max_digit([1, 2, 3, 14, 5, 10, 11]))
     print(quicksort([10, 5, 2, 3]))
+
+    book = dict()
+    book["jabłko"] = 0.67
+    book["mleko"] = 1.49
+    book["awokado"] = 1.49
+    print(book)
+    print(book["awokado"])
