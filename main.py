@@ -3,6 +3,7 @@ from introductionToAlgorithms import binary_search
 from sortingBySelection import selection_sort
 from quicksort import sum_digits, sum_code, count_list_elements, find_max_digit, quicksort
 from dictionary import voted, check_voter
+from broadSearch import mango_seller_search
 
 if __name__ == '__main__':
     my_list = [1, 3, 5, 7, 9]
@@ -27,3 +28,5 @@ if __name__ == '__main__':
     print(check_voter("tomasz"))
     print(check_voter("michał"))
     print(check_voter("michał"))
+
+    mango_seller_search("ty")
