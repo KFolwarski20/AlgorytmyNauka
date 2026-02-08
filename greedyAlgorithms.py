@@ -56,3 +56,28 @@ Dla każdego z tych algorytmów wskaż, czy jest zachłanny, czy nie.
 # Odpowiedź 1: niezachłanny
 # Odpowiedź 2: zachłanny
 # Odpowiedź 3: zachłanny
+
+
+"""
+Listonosz musi dostarczyć listy do 20 domów i chciałby się dowiedzieć, jaka jest najkrótsza trasa między tymi
+dwudziestoma miejscami. Czy jest to problem NP-zupełny?
+"""
+
+# Odpowiedź: Tak, jest to problem NP-zupełny ponieważ mamy 20! możliwości tras.
+
+
+"""
+Wyszukiwanie największej kliki w zbiorze ludzi (tu przyjmujemy, że klika to zbiór ludzi, którzy wzajemnie się znają)
+- czy jest to problem NP-zupełny?
+"""
+
+# Odpowiedź: Tak, jest to problem NP-zupełny. Konieczne jest wykorzystanie algorytmu aproksymacyjnego.
+
+
+"""
+Robisz mapę USA i sąsiadującym stanom chcesz nadać różne kolory. Musisz znaleźć najmniejszą liczbę kolorów, jaka
+wystarczy do takiego pokolorowania stanów, aby żadna para sąsiadów nie miała tego samego koloru. Czy jest to problem
+NP-zupełny?
+"""
+
+# Odpowiedź: Tak, jest to problem NP-zupełny. Konieczne jest wykorzystanie algorytmu aproksymacyjnego.
