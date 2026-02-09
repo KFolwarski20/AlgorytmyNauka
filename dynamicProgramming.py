@@ -17,3 +17,38 @@ Jaki jest optymalny zestaw przedmiotów do zabrania na wycieczkę?
 """
 
 # Odpowiedź: Woda, kurtka, aparat. Wartość zestawu = 21.
+
+"""
+if word_a[i] == word_b[j]:              # Litery pasują
+    cell[i][j] = cell[i-1][j-1] + 1
+else:                                   # Litery nie pasują
+    cell[i][j] = 0
+"""
+
+"""
+if word_a[i] == word_b[j]:              # Litery są takie same
+    cell[i][j] = cell[i-1][j-1] + 1
+else:                                   # Litery są różne
+    cell[i][j] = max(cell[i-1][j], cell[i][j-1])
+"""
+
+
+"""
+Narysuj i wypełnij danymi siatkę do obliczania najdłuższego wspólnego łańcucha dla napisów blue i clues.
+"""
+
+# Odpowiedź:
+
+#   | B | L | U | E
+# C | 0 | 0 | 0 | 0
+# -------------------
+# L | 0 | 1 | 0 | 0
+# -------------------
+# U | 0 | 0 | 2 | 0
+# -------------------
+# E | 0 | 0 | 0 | 3
+# -------------------
+# S | 0 | 0 | 0 | 0
+
+# Najdłuższy wspólny łańcuch wynosi 3.
+
